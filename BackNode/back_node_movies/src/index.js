@@ -32,7 +32,14 @@ async function fetchDataAndSave() {
         title: entry.title,
         description: entry.description,
         programType: entry.programType,
-        imageUrl: entry.images["Poster Art"]?.url,
+        //images: entry.images["Poster Art"]?.url,
+        images: {
+          "Poster Art": {
+            "url": entry.images["Poster Art"]?.url,
+            "width": 1000,
+            "height": 1500
+          }
+        },
         releaseYear: entry.releaseYear,
       });
     }

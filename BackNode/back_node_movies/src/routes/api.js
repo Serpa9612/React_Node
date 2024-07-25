@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/entries', async (req, res) => {
   try {
     const entries = await Entry.findAll();
-    res.json(entries);
+    res.json({entries});
   } catch (error) {
     console.error('Error fetching entries:', error);
     res.status(500).json({ error: 'Error fetching entries' });

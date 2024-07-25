@@ -14,8 +14,8 @@ const Entry = sequelize.define("Entry", {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  imageUrl: {
-    type: DataTypes.STRING,
+  images: {
+    type: DataTypes.JSONB,
     allowNull: true,
   },
   releaseYear: {
