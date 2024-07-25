@@ -39,3 +39,5 @@ For the development of this web application, use a layered architecture,
 [Repositorio](https://github.com/Serpa9612/movies-app "Repositorio") En GitHub
 
 In this repository you will find all the Movie App codes, To start you just have to clone this repository (git clone), install its dependencies (npm i, yarn i) and run the application (npm run start).
+
+Prueba https://github.com/chedoc/prueba-tecnica-react-developer?tab=readme-ov-file repo
